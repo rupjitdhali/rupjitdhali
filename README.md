@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./banner.svg" alt="Rupjit Dhali" />
+</p>
+
+
 <svg width="800" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
 
 
