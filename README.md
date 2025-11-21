@@ -1,44 +1,49 @@
-<!-- Top banner -->
-<p align="center">
-  <svg width="800" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-    <title id="title">Rupjit Dhali</title>
-    <desc id="desc">Minimal banner for GitHub profile</desc>
+<svg width="800" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
+  <title id="title">Rupjit Dhali</title>
+  <desc>Minimal banner for GitHub profile</desc>
 
-    <!-- Background gradient -->
-    <defs>
-      <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#0f172a"/>
-        <stop offset="50%" stop-color="#020617"/>
-        <stop offset="100%" stop-color="#111827"/>
-      </linearGradient>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
 
-      <!-- Soft glow behind text -->
-      <filter id="glow">
-        <feGaussianBlur stdDeviation="18" result="coloredBlur"/>
-        <feMerge>
-          <feMergeNode in="coloredBlur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-    </defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="18" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
 
-    <!-- Card background -->
-    <rect x="20" y="20" width="760" height="140" rx="24" fill="url(#bgGrad)" stroke="#1f2937" stroke-width="2"/>
+  <!-- Card background -->
+  <rect x="20" y="20" width="760" height="140" rx="24"
+        fill="url(#bgGrad)" stroke="#1f2937" stroke-width="2"/>
 
-    <!-- Subtle border line -->
-    <rect x="28" y="28" width="744" height="124" rx="20" fill="none" stroke="#4b5563" stroke-width="0.6" stroke-dasharray="4 6" opacity="0.6"/>
+  <!-- Subtle border line -->
+  <rect x="28" y="28" width="744" height="124" rx="20"
+        fill="none" stroke="#4b5563" stroke-width="0.6"
+        stroke-dasharray="4 6" opacity="0.6"/>
 
-    <!-- Main name text -->
-    <text x="50%" y="50%" text-anchor="middle" fill="#e5e7eb" font-size="36" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" dy="-6" filter="url(#glow)">
-      Rupjit Dhali
-    </text>
+  <!-- Main name text -->
+  <text x="50%" y="50%" text-anchor="middle"
+        fill="#e5e7eb" font-size="36"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        dy="-6" filter="url(#glow)">
+    Rupjit Dhali
+  </text>
 
-    <!-- Neutral subtitle (no skills / interests) -->
-    <text x="50%" y="50%" text-anchor="middle" fill="#9ca3af" font-size="16" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" dy="26">
-      Welcome to my GitHub profile
-    </text>
-  </svg>
-</p>
+  <!-- Neutral subtitle -->
+  <text x="50%" y="50%" text-anchor="middle"
+        fill="#9ca3af" font-size="16"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        dy="26">
+    Welcome to my GitHub profile
+  </text>
+</svg>
+
 
 
 ## Hi there 👋, I am Rupjit Dhali
