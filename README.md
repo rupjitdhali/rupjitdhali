@@ -1,12 +1,9 @@
-<svg width="800" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
+<p align="center">
+  <img src="./banner.svg" alt="Rupjit Dhali" />
+</p>
 
-  <text x="50%" y="50%" text-anchor="middle"
-        fill="#9ca3af" font-size="16"
-        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-        dy="26">
-    Welcome to my GitHub profile
-  </text>
-</svg>
+
+
 
 
 
